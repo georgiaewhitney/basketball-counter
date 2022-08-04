@@ -1,0 +1,95 @@
+@font-face {
+  font-family: cursedTimer;
+  src: url(fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background: #1B244A;
+  color: #EEEEEE;
+}
+
+h3  {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.score  {
+  color: #F94F6D;
+  font-weight: 400;
+  font-size: 90px;
+  font-family: cursedTimer;
+  background: rgb(14, 14, 14);
+  padding: 20px;
+  border-style: solid;
+  border-color: gold;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+button {
+    padding: 15px;
+    margin: 3px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursedTimer;
+    cursor: pointer;
+    outline: #e5e5e5;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  
+.add-1-point:active {
+    background-color: #8f5e3e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.add-2-point:active {
+  background-color: #838383;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.add-3-point:active {
+  background-color: #caa324;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.add-1-point {
+  background-color: #8f5e3e;
+}
+
+.add-2-point {
+  background-color: #838383;
+}
+
+.add-3-point  {
+  background-color: #caa324;
+}
+
+.reset {
+  background-color: #ff0c0c;
+}
+
+#reset-btn:active  {
+  background-color: #ff0c0c;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+@font-face {
+  font-family: cursedTimer;
+  src: url(fonts/CursedTimerUlil-Aznm.ttf);
+}

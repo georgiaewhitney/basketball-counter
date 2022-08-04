@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <title>Basketball Counter</title>
+</head>
+<body>
+  <div class="container">
+    <div class="home-section">
+      <h3>HOME</h3>
+      <h4 id="home-count-el" class="score">0</h4>
+      <button id="add1-home-btn" onclick="add1Home()" class="add-1-point">+ 1</button>
+      <button id="add2-home-btn" onclick="add2Home()"class="add-2-point">+ 2</button>
+      <button id="add3-home-btn" onclick="add3Home()"class="add-3-point">+ 3</button>
+    </div>
+    <div class="away-section">
+      <h3>AWAY</h3>
+      <h4 id="away-count-el" class="score">0</h4>
+      <button id="add1-away-btn" onclick="add1Away()"class="add-1-point">+ 1</button>
+      <button id="add2-away-btn" onclick="add2Away()"class="add-2-point">+ 2</button>
+      <button id="add3-away-btn" onclick="add3Away()"class="add-3-point">+ 3</button>
+    </div>
+  </div>
+  <div>
+    <div class="container">
+      <button id="reset-btn" onclick="resetScore()" class="reset">Reset Score</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  
+</body>
+</html>
